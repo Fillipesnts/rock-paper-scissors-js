@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+    <title>Pedra, Papel ou Tesoura</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="header">
+                <h1>Placar:</h1>
+                <div class="players">
+                    <div id="player1">
+                        <p>Você: <span id="player1-points"></span></p>
+                    </div>
+
+                    <div id="player2">
+                        <p>Antônio (IA): <span id="player2-points"></span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="options">
+                <div class="rock">
+                    <img src="img/mão pedra png.png" alt="">
+                    <button id="rock-btn">Pedra</button>
+                </div>
+
+                <div class="paper">
+                    <img src="img/mão papel png.png" alt="">
+                    <button id="paper-btn">Papel</button>
+                </div>
+
+                <div class="scissors">
+                    <img src="img/mão tesoura png.png" alt="">
+                    <button id="scissors-btn">Tesoura</button>
+                </div>  
+            </div>
+
+            <div class="input">
+                <input id="play-btn" type="submit" value="Jogar">
+            </div>
+        </section>
+
+        <span id="choiced"></span>
+
+        <div id="result-container">
+
+        </div>
+    </main>
+</body>
+</html>
